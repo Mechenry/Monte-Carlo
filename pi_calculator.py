@@ -130,7 +130,7 @@ def animate(i):
         
     plt.xlabel('Iteration',fontsize=17.5)
     plt.ylabel(r'Value of $\pi$ Approximation',fontsize=17.5)
-    ax2.legend(fontsize = 12, bbox_to_anchor=(1, 1.2), loc = 'outside right')
+    ax2.legend(fontsize = 12, bbox_to_anchor=(1, 1.2), loc = 'upper right')
     # Plot real value of pi
     graph[3].set_data([0,len(pi_calc[:i])],[math.pi,math.pi])
 
